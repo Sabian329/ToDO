@@ -129,8 +129,6 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
-
-
   @media(max-width: 400px){
     ul {
       margin: 0;
@@ -163,18 +161,15 @@ input {
     ul li:nth-child(odd) {
       background: #f9f9f950;
     }
-    
     ul li:hover {
       background: rgba(87, 87, 87, 0.37);
       transform: unset;
     }
-    ul li.checked {
-      
+    ul li.checked {    
       padding-left: 10vw;
       background: rgba(159, 226, 50, 0.493);
       color: #fff;
-      transition: 0.2s;
-      
+      transition: 0.2s; 
     }
     ul li.checked::before {
       content: '';
@@ -193,17 +188,10 @@ input {
       right: 0;
       top: 0;
       padding: 2vh ;
-      border-radius:0px 10px 10px 0px;
-      
+      border-radius:0px 10px 10px 0px; 
     }
-    
     .close:hover {
-      
       background-color: #000000;
       color: white;
     }
-
-
-
-
   }
